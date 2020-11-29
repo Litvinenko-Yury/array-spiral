@@ -1,6 +1,5 @@
 'use strict';
 
-/*задать исходный массив*/
 function createArr(rows, columns) {
     const tempArr = []; //создал пустой массив
 
