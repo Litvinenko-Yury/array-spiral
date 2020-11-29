@@ -43,7 +43,7 @@ function createArr(rows, columns) {
 
         /*4. проход left-вертикаль, снизу-вверх*/
         for (let i = (rowMax - 1); i >= (rowMin + 1); i--) {
-            tempArr[i][colMin] = num; // заполняем bottom-горизонт
+            tempArr[i][colMin] = num; // заполняем left-вертикаль
             num++;
         }
 
